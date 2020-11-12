@@ -4,3 +4,16 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
+li{
+    list-style-position: inside;
+    list-style-type: none;
+}
+
+footer div ul li{
+    margin-bottom: 1.5rem;
+}
+
+footer div ul li:first-child{
+    margin-top: 1.5rem;
+}
