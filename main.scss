@@ -1,3 +1,10 @@
+$yellow:#FFD600;
+$my-black: #151617;
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .back{
     height: 400px;
     background-image: url("../16.jpg");
@@ -17,3 +24,45 @@ footer div ul li{
 footer div ul li:first-child{
     margin-top: 1.5rem;
 }
+
+.my-nav-class{
+    background-color: #151617;
+}
+
+.yellow-color{
+    background-color: $yellow;
+}
+
+.grey-color{
+    background-color: #ECECEC;
+    ;
+}
+
+.black-color{
+    background-color: $my-black;
+    color: #FFFFFF;
+}
+
+.my-text-black{
+    color: $my-black;
+}
+
+.my-font-weight-500{
+    font-weight: 500;
+}
+
+.my-font-weight-600{
+    font-weight: 600;
+}
+
+.tape{
+    min-width: 100%;
+    height: auto;
+}
+
+.aaa{
+    margin-right: -300px;
+    background-color: $yellow;
+}
+
+

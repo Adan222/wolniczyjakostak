@@ -12,69 +12,139 @@
 
     <!-- My CSS -->
     <link rel="stylesheet" href="css/main.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--
+        font-family: 'Montserrat', sans-serif;
+    -->
 </head>
 
 <body>
     <div class="container-fluid p-0" >
-        <nav class="navbar navbar-expand-md navbar-light bg-white sticky-top">
-            <a href="" class="navbar-brand">Logo</a>
+        <!-- navbar -->
+        <div class="container p-0 sticky-top">
+            <nav class="navbar navbar-expand-md my-nav-class">
+                <a href="" class="navbar-brand">
+                    <img src="img/mini-logo.svg" alt="folni od ferm logo">
+                </a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburger">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <button class="btn rounded font-weight-bold yellow-color">
+                    Dołącz do spisu
+                </button>
 
-            <div class="navbar-collapse collapse justify-content-end" id="hamburger">
-                <div class="navbar-nav">
-                    <a href="#" class="nav-item nav-link">Blog</a>
-                    <a href="#" class="nav-item nav-link">Kontakt</a>
-                    <a href="#" class="nav-item nav-link">Dla mediów</a>
-                </div>
-            </div>
-        </nav>
-        <section class="container" style="background-color: gray;">
-            <div class="row">
-                <div class="col-12">
-                    <div class="text-center">
-                        <p class="h3 mt-5">Wolni od Ferm</p>
-                        <p class="font-weight-bold">Walczymy o prawa człowieka</p>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburger">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse justify-content-end" id="hamburger">
+                    <div class="navbar-nav" style="border-top: 1px solid grey;">
+                        <a href="#" class="nav-item nav-link text-right">O programie</a>
+                        <a href="#" class="nav-item nav-link text-right">Kto stoi za ruchem?</a>
+                        <a href="#" class="nav-item nav-link text-right">Blog</a>
+                        <a href="#" class="nav-item nav-link text-right">Dla mediów</a>
+                        <a href="#" class="nav-item nav-link text-right">Kontakt</a>
                     </div>
-                    <div>
-                        <p class="text-left mb-0">Walczymy o przyszłść naszych rodzin.</p>
-                        <p class="text-left mb-0">O życie bez strachu i bez walki z nierównym przeciwnikiem.</p>
-                        <p class="text-left mb-4">
-                            Wolni od niezrównoważonego przemysłu sporzywczego, który niszczy
-                            środowisko i odbiera podstawowe prawa ludziom i zwierzętom.
+                </div>
+            </nav>
+        </div>
+        <!-- Sekcja z filmem -->
+        <section class="container-fluid" style="background-color: gray;">
+            <div class="row">
+                <div class="col-sm-6 p-0">
+                    <header class="px-3">
+                        <h1 class="text-white font-weight-bold">Wolni od Ferm</h1>
+                    </header>
+                    <div class="bg-white text-black px-3">
+                        <h3 class="h3">
+                            Trzymamy stronę ofiar ferm.
+                        </h3>
+                    </div>
+                    <div class="px-3">
+                        <p class="text-white my-font-weight-500">
+                            Fermy przemysłowe niszczą środowisko i odbierają podstawowe prawa – ludziom i zwierzętom.
                         </p>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12">
+                <div class="col-sm-6">
                     <div class="embed-responsive embed-responsive-16by9 mb-4">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bKHxpzEKpI?rel=0"></iframe>
                     </div>  
                 </div>
             </div>
         </section>
-        <section class="container pb-4">
-            <div class="row">
-                <div class="col-12 d-flex flex-column">
-                    <p class="lead font-weight-bold text-center mt-4">
-                        Powszechny Spis Ofiar Ferm
+        <!-- Powszechny spis ofiar ferm -->
+        <section class="container-fluid px-0">
+            <div class="container p-0">
+                <div class="w-100">
+                    <img class="tape" src="img/lg-tape.svg" alt="full witdh police tape">
+                </div>
+                <div class="d-flex flex-column p-3 yellow-color">
+                    <h2 class="font-weight-bold mb-3">
+                        Powszechny Spis Ofiar Ferm Przemysłowych
+                    </h2>
+                    <p class="lead my-font-weight-500 p-3 mb-3">
+                        Zatrzymaj z nami niezrównoważony przemysł spożywczy. Nakłoń polityków i polityczki do zabrania głosu. 
                     </p>
-                    <p class="mb-0">Cierpisz z powodu ferm w okolicy?</p>
-                    <p class="mb-0">Boisz się, że w sąsiedztwie  powstanie ferma?</p>
-                    <p class="mb-0">Chcesz opowiedzieć o swoim problemie?</p>
-                    <p class="mb-3">Jaka jest Twoja historia?</p>
-                    <p class="mb-5">
-                        Dołącz do spisu ofiar ferm, włącz się w działanie przeciwko fermom przemysłowmy
-                        i wspólnie działajmy dla zrównoważonego rolnictwa.
-                    </p>
-
-                    <a href="#" class="btn btn-primary align-self-center">Dołącz do spisu</a>
+                    <button class="btn black-color font-weight-bold d-flex flex-row justify-content-center align-items-center">
+                        <p class="pl-5 m-0">
+                            Dołącz do spisu
+                        </p>
+                        <img class="pl-4" src="img/mini-arrow.svg" alt="">
+                    </button>
+                </div>
+                <div class="w-100">
+                    <img class="tape" src="img/lg-tape.svg" alt="full witdh police tape">
                 </div>
             </div>
         </section>
+        <!-- Program wolni od ferm -->
+        <section class="container grey-color pt-4">
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <h2 class="font-weight-bold">Program Wolni od Ferm</h2>
+                </div>
+                <div class="col-xl-3 mb-4">
+                    <h3 class="my-font-weight-600">Jak działamy?</h3>
+                </div>
+                <div class="col-xl-9">
+                    <div class="mb-3 bg-white d-flex flex-column justify-content-center align-items-center">
+                        <img class="pt-3 px-3" src="img/prog-icon-1.svg" alt="">
+                        <p class="pt-3 px-3 my-font-weight-500">
+                            Budujemy świadomość społeczną o skutkach ferm przemysłowych.
+                        </p>
+                    </div>
+                    <div class="mb-3 bg-white d-flex flex-column justify-content-center align-items-center">
+                        <img class="pt-3 px-3" src="img/prog-icon-2.svg" alt="">
+                        <p class="pt-3 px-3 my-font-weight-500">
+                            Niesiemy wsparcie merytoryczne dla lokalnych społeczności i organizacji.
+                        </p>
+                    </div>
+                    <div class="mb-3 bg-white d-flex flex-column justify-content-center align-items-center">
+                        <img class="pt-3 px-3" src="img/prog-icon-3.svg" alt="">
+                        <p class="pt-3 px-3 my-font-weight-500">
+                            Wpływamy na działania rządu, samorządów oraz instytucji UE. Walczymy o gwarancję praw człowieka.
+                        </p>
+                    </div>
+                    <div class="mb-3 bg-white d-flex flex-column justify-content-center align-items-center">
+                        <img class="pt-3 px-3" src="img/prog-icon-4.svg" alt="">
+                        <p class="pt-3 px-3 my-font-weight-500">
+                            Tworzymy projekt ustawy o ochronie mieszkańców i mieszkanek wsi przed skutkami ferm przemysłowych.
+                        </p>
+                    </div>
+                    <div class="mb-3 bg-white d-flex flex-column justify-content-center align-items-center">
+                        <img class="pt-3 px-3" src="img/prog-icon-5.svg" alt="">
+                        <p class="pt-3 px-3 my-font-weight-500">
+                            Łączymy społeczności lokalne z instytucjami UE.
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <img src="img/sm-tape.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- Kto stoi za ruchem -->
         <section class="container bg-secondary pb-4 pt-4">
             <div class="row">
                 <div class="col-12 d-flex flex-column align-items-center">
@@ -96,6 +166,7 @@
                 </div>
             </div>
         </section>
+        <!-- Twitter widget -->
         <section class="container mt-4 mb-4">
             <div class="row">
                 <div class="col-12 d-flex flex-column align-items-center">
@@ -104,6 +175,7 @@
                 </div>
             </div>
         </section>
+        <!-- Śledź nas w social media -->
         <section class="container bg-secondary pt-4 pb-4">
             <div class="row">
                 <div class="col-12">
@@ -122,54 +194,7 @@
                 </div>
             </div>
         </section>
-        <section class="container mt-4 mb-4">
-            <div class="row">
-                <div class="col-12 d-flex flex-column">
-                    <p class="lead font-weight-bold text-center">Probram Wolni od Ferm</p>
-                    <p class="mb-0">
-                        Program "Wolni od Ferm" to odpowiedz na brak sprawiedliwości społecznej
-                        i niskie zaangażowanie w ochronę praw ludzi, praw zwierząt, środowiska i klimatu.
-                    </p>
-                    <figure>
-                        <img src="60.jpg" alt="foto" class="img-fluid mb-2">
-                        <figcaption>
-                            <p class="text-center text-secondary mb-1">Podpis do zdjęcia. Podpis do zdjęcia.</p>
-                            <p class="text-center text-secondary mb-1">Podpis do zdjęcia. Podpis do zdjęcia.</p>
-                        </figcaption>
-                    </figure>
-                    <p class="mb-0">
-                        Biorąc udział w Spisie dołączasz do ruchu, który walczy o poprawę życia
-                        ludzi dotkniętcyh działalniścią ferm przemysłowych.
-                    </p>
-                    <p class="mb-0">
-                        Dzięki temu wreszcie opowiedzieć o swoich problemach.
-                    </p>
-                    <p class="mb-3">
-                        Twój głos wybrzmi w debacie politycznej na forum europejskim.
-                    </p>
-                    <figure>
-                        <img src="95.jpg" alt="foto" class="img-fluid mb-2">
-                        <figcaption>
-                            <p class="text-center text-secondary mb-1">Podpis do zdjęcia. Podpis do zdjęcia.</p>
-                            <p class="text-center text-secondary mb-1">Podpis do zdjęcia. Podpis do zdjęcia.</p>
-                        </figcaption>
-                    </figure>
-                    <p class="mb-0">
-                        Ludzie muszą być wolni od ferm przemysłowych.
-                    </p>
-                    <p class="mb-0">
-                        Walczymy o godność ludzi narażonych na choroby, zmuszonych do życia w smrodzie
-                        i wśród plagi much.
-                    </p>
-                    <p class="mb-0">
-                        Ludzi muszą być wolni i czuć się bezpiecznie we własnym domu, we własnym kraju
-                        i w Europie.
-                    </p>
-                    <p class="mb-3">Mamy plan na lepszą przyszłość.</p>
-                    <a href="#" class="btn btn-primary align-self-center">Zobacz Galerię Zdjęć</a>
-                </div>
-            </div>
-        </section>
+        <!-- Nasz cel -->
         <section class="container bg-secondary pt-5 pb-4">
             <div class="row">
                 <div class="col-12">
@@ -197,6 +222,7 @@
                 </div>
             </div>
         </section>
+        <!--  Powszechny Spis Ofiar Ferm -->
         <section class="container mt-4">
             <div class="row">
                 <div class="col-12">
@@ -269,13 +295,15 @@
                 </div>
             </div>
         </section>
+        <!-- Baner zielonych -->
         <section class="container mb-5">
             <div class="row">
                 <div class="col-12">
-                    <img src="47.jpg" alt="baner zielonych" class="img-fluid">
+                    <img src="47.jpg" alt="baner zielonych" class="aaa img-fluid">
                 </div>
             </div>
         </section>
+        <!-- Social media icons -->
         <section class="container bg-secondary pt-4 pb-4">
             <div class="row">
                 <div class="col-12">
@@ -293,6 +321,7 @@
                 </div>
             </div>
         </section>
+        <!-- Footer -->
         <footer class="container" style="background-color: lightgray;">
             <div class="row">
                 <div class="col-12">
