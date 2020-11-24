@@ -29,16 +29,16 @@
                     <img src="img/mini-logo.svg" alt="folni od ferm logo">
                 </a>
 
-                <button class="btn rounded font-weight-bold yellow-color">
+                <a href="#" class="btn rounded font-weight-bold yellow-color">
                     Dołącz do spisu
-                </button>
+                </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamburger">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
                 <div class="navbar-collapse collapse justify-content-end" id="hamburger">
-                    <div class="navbar-nav" style="border-top: 1px solid grey;">
+                    <div class="navbar-nav">
                         <a href="#" class="nav-item nav-link text-right">O programie</a>
                         <a href="#" class="nav-item nav-link text-right">Kto stoi za ruchem?</a>
                         <a href="#" class="nav-item nav-link text-right">Blog</a>
@@ -49,18 +49,18 @@
             </nav>
         </div>
         <!-- Sekcja z filmem -->
-        <section class="container-fluid" style="background-color: gray;">
+        <section class="container-fluid black-color" >
             <div class="row">
-                <div class="col-sm-6 p-0">
-                    <header class="px-3">
-                        <h1 class="text-white font-weight-bold">Wolni od Ferm</h1>
+                <div class="col-sm-6">
+                    <header class="my-4">
+                        <h3 class="text-white font-weight-bold">#WolniOdFerm</h3>
                     </header>
-                    <div class="bg-white text-black px-3">
-                        <h3 class="h3">
+                    <div class="bg-white my-text-black">
+                        <h3 class="my-font-weight-600 px-3 py-2">
                             Trzymamy stronę ofiar ferm.
                         </h3>
                     </div>
-                    <div class="px-3">
+                    <div class="">
                         <p class="text-white my-font-weight-500">
                             Fermy przemysłowe niszczą środowisko i odbierają podstawowe prawa – ludziom i zwierzętom.
                         </p>
@@ -76,14 +76,12 @@
         <!-- Powszechny spis ofiar ferm -->
         <section class="container-fluid px-0">
             <div class="container p-0">
-                <div class="w-100">
-                    <img class="img-fluid" src="img/lg-tape.svg" alt="full witdh police tape">
-                </div>
+                <div class="police-tape"></div>
                 <div class="d-flex flex-column p-3 yellow-color">
-                    <h2 class="font-weight-bold mb-3">
+                    <h2 class="font-weight-bold px-3 mb-3">
                         Powszechny Spis Ofiar Ferm Przemysłowych
                     </h2>
-                    <p class="lead my-font-weight-500 p-3 mb-3">
+                    <p class="lead my-font-weight-500 px-3 mb-3">
                         Zatrzymaj z nami niezrównoważony przemysł spożywczy. Nakłoń polityków i polityczki do zabrania głosu. 
                     </p>
                     <button class="btn black-color font-weight-bold d-flex flex-row justify-content-center align-items-center">
@@ -93,9 +91,7 @@
                         <img class="pl-4" src="img/mini-arrow.svg" alt="">
                     </button>
                 </div>
-                <div class="w-100">
-                    <img class="img-fluid" src="img/lg-tape.svg" alt="full witdh police tape">
-                </div>
+                <div class="police-tape"></div>
             </div>
         </section>
         <!-- Program wolni od ferm -->
@@ -139,9 +135,7 @@
                         </p>
                     </div>
                 </div>
-                <div>
-                    <img class="img-fluid" src="img/sm-tape.svg" alt="">
-                </div>
+                <div class="police-tape"></div>
             </div>
         </section>
         <!-- Galeria zdjęć -->
@@ -231,28 +225,138 @@
                         </div>
                     </div>
                 </div>
+                <div class="row justify-content-center">
+                    <button class="btn my-trans-btn font-weight-bold w-100 p-3 m-3">
+                        Zobacz galerię zdjęć
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!--  Powszechny Spis Ofiar Ferm -->
+        <section class="container-fluid p-0 ">
+            <div class="container p-0 yellow-color">
+                <div class="row">
+                    <!-- Police tape -->
+                    <div class="col-12 lg-police-tape"></div>
+                    <!-- White menu -->
+                    <div class="col-12 bg-white">
+                        <h1 class="font-weight-bold px-3 mt-3">
+                            Dołącz do spisu
+                        </h1>
+                        <h4 class="my-font-weight-600 black-color mx-3 px-3 py-1">
+                            Włącz się w walkę o realne zmiany.
+                        </h4>
+                        <p class="px-3 my-font-weight-500">
+                            Pomóż chronić mieszkanki i mieszkańców wsi przed skutkami działalności ferm przemysłowych. To walka o godność i prawa człowieka, na poziomie polskim i europejskim.
+                        </p>
+                    </div>
+                    <!-- Yellow menu -->
+                    <div class="col-sm-12 col-md-9 yellow-color">
+                        <h1 class="font-weight-bold p-3">
+                            Kim jesteś?
+                        </h1>
+                        <div class="form-group form-check mx-3">
+                            <input class="form-check-input" data-toggle="collapse" data-target="#colapse1" id="check1" type="radio" name="radio" checked>
+                            <label class="form-check-label" for="check1">
+                                Chcę tylko zgłosić swoją sprawę
+                            </label>
+                        </div>
+                        <div class="form-group form-check mx-3">
+                            <input class="form-check-input" data-toggle="collapse" data-target="#colapse2" id="check2" type="radio" name="radio">
+                            <label class="form-check-label" for="check2">
+                                Problem ferm dotyczy mnie bezpośrednio i chcę działać
+                            </label>
+                        </div>
+                        <div class="form-group form-check mx-3">
+                            <input class="form-check-input" id="check3" type="radio" name="radio">
+                            <label class="form-check-label" for="check3">
+                                Chcę robić coś już teraz!
+                            </label>
+                        </div>
+                    </div>
+                    <!-- 
 
+                        tutaj wyskakuje menu
+
+                    -->
+                    <div class="col-sm-12 col-md-9 yellow-color">
+                        <h1 class="font-weight-bold px-3">
+                            Twoje dane
+                        </h1>
+                        <form>
+                            <div class="form-group px-3">
+                                <label for="imie">Imie</label>
+                                <input class="form-control p-3" name="imie" type="text">
+                            </div>
+                            <div class="form-group px-3">
+                                <label for="k-pocztowy">Kod pocztowy</label>
+                                <input class="form-control" name="k-pocztowy" type="text">
+                            </div>
+                            <div class="form-group px-3">
+                                <label for="email">Email</label>
+                                <input class="form-control" name="email" type="email">
+                            </div>
+                            <div class="form-group form-check mx-3">
+                                <input class="form-check-input" type="checkbox" id="com">
+                                <label class="form-check-label" for="com">Zgoda na komunikację</label>
+                            </div>
+                            <div class="form-group form-check mx-3">
+                                <input class="form-check-input" type="checkbox" id="prz">
+                                <label class="form-check-label" for="prz">Zgoda na przechowywanie danych</label>
+                            </div>
+                            <div class="mx-3">
+                                <button class="btn black-color w-100 mb-4" type="submit">
+                                    <p class="font-weight-bold m-1 p-1">Wyślij</p>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Police tape -->
+                    <div class="col-12 lg-police-tape"></div>
+                </div>
             </div>
         </section>
         <!-- Kto stoi za ruchem -->
-        <section class="container bg-secondary pb-4 pt-4">
-            <div class="row">
-                <div class="col-12 d-flex flex-column align-items-center">
-                    <p class="lead font-weight-bold">Kto stoi za ruchem?</p>
-                    <figure>
-                        <img class="img-fluid rounded-circle mb-3" src="27.jpg" alt="Dr.Sylwia Spurek">
-                        <figcaption class="text-center font-weight-bold">
-                            Dr.Sylwia Spurek
-                        </figcaption>
-                    </figure>
-                    <p class="mb-4">
-                        Od ponad 20 lat działa na rzecz praw człowieka. Jest byłą zastępczyni
-                        Rzecznik Praw Obywatelskich. Prawniczka, radczyni prawa, legislatorka, feministka.
-                        Obecnie Posłanka do Parlamentu Europejskiego. Wiceprzewodnicząca Komisji Praw Kobiet
-                        i Równo uprawnienia. Członkini Komisji Wolności Obywatelskich, Sprawiedliwości i Spraw
-                        Wewnętrznych.
-                    </p>
-                    <a href="#" class="btn btn-primary align-self-center">Zobacz Oficjalną Stronę</a>
+        <section class="container-fluid p-0 mt-3">
+            <div class="container p-0 black-color">
+                <div class="row">
+                    <div class="col-12">
+                        <h3 class="font-weight-bold p-3">
+                            Kto stoi za ruchem?
+                        </h3>
+                    </div>
+                    <div class="col-sm-12 col-lg-3 yellow-color">
+                        <img class="img-fluid px-3 pt-3" src="img/baba.png" alt="">
+                    </div>
+                    <div class="col-sm-12 col-lg-9 mt-3">
+                        <h4 class="bg-white my-text-black my-font-weight-600 mx-3 px-3 py-2">
+                            Dr Sylwia Spurek
+                        </h4>
+                        <h4 class="my-font-weight-600 px-3">
+                            Posłanka do Parlamentu Europejskiego.
+                        </h4>
+                        <p class="p-3">
+                            Od 21 lat zaangażowana w działania na rzecz praw człowieka. 
+                            Autorka pierwszego polskiego projektu ustawy o przeciwdziałaniu przemocy w rodzinie. 
+                        </p>
+                        <p class="navbar-collapse my-text-yellow font-weight-bold px-3" data-toggle="collapse" data-target="#text">
+                            Pokaż więcej
+                        </p>
+                        <!-- 
+                            To pokaoze sie po kliknieci 
+                            ale tylko na malych ekranach
+                        -->
+                        <div class="navbar-collapse collapse" id="text">
+                            <p class="px-3">
+                                Od 2015 r. do 2019 r. Zastępczyni Rzecznika Praw Obywatelskich. Wiceprzewodnicząca Komisji Praw Kobiet i Równouprawnienia (FEMM) i członkini Komisji Wolności Obywatelskich, Sprawiedliwości i Spraw Wewnętrznych (LIBE). 
+                            </p>
+                        </div>
+
+                        <a class="btn btn-primary" href="">
+                            Zobacz oficjalną stronę
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
@@ -309,79 +413,6 @@
                             wszystkich zainteresowanych.
                         </li>
                     </ul>
-                </div>
-            </div>
-        </section>
-        <!--  Powszechny Spis Ofiar Ferm -->
-        <section class="container mt-4">
-            <div class="row">
-                <div class="col-12">
-                    <div>
-                        <p class="lead font-weight-bold text-center">
-                            Powszechny Spis Ofiar Ferm
-                        </p>
-                        <p class="mb-4">
-                            Włącz się do walki o realne zmiany.
-                        </p>
-                        <p class="mb-3">
-                            Pomóż chronić mieszkanki i mieszkańców wsi przed skutkami działalności
-                            ferm przemysłowych. To walka o godność i prawa człowieka, na poziomie 
-                            polskim i europejskim
-                        </p>
-                        <p class="mb-0"> 
-                            Razem włączymy temat ferm przemysłowych do debaty publicznej.
-                        </p>
-                        <p class="mb-4">
-                            Pokażemy prawdziwą skalę problemu.
-                        </p>
-                    </div>
-                    
-                    <div class="form-group">
-                        <form action="" class="d-flex flex-column">
-                            <p class="lead font-weight-bold text-left">Kim jesteś?</p>
-                            <div class="form-check mb-2">
-                                <input type="radio" name="" id="" class="form-check-input" checked>
-                                <label for="" class="form-check-label">
-                                    Chcę tylko dołączyć do spisu
-                                </label>
-                            </div>
-                            <div class="form-check mb-3 d-flex align-items-center">
-                                <input type="radio" name="" id="" class="form-check-input">
-                                <label for="" class="form-check-label pt-2">
-                                    Problem ferm dotyczy mnie bezpośredno i chcę działać
-                                </label>
-                            </div>
-                            <div class="form-check mb-3">
-                                <input type="radio" name="" id="" class="form-check-input">
-                                <label for="" class="form-check-label">
-                                    Chcę zrobić coś już teraz
-                                </label>
-                            </div>
-                            <!-- -->
-                            <p class="lead font-weight-bold text-left mb-5">Twoje Dane</p>
-                            <div>
-                                <input class="form-control mb-5" type="text" placeholder="Imie">
-                                <input class="form-control mb-5" type="text" placeholder="Kod Pocztowy">
-                                <input class="form-control mb-5" type="email" placeholder="Email" >
-                            </div>
-                            <div class="form-check mb-4">
-                                <input type="radio" name="" id="" class="form-check-input">
-                                <label for="" class="form-check-label">
-                                    Zgoda na komunikację
-                                </label>
-                            </div>
-                            <div class="form-check mb-4">
-                                <input type="radio" name="" id="" class="form-check-input">
-                                <label for="" class="form-check-label">
-                                    Zgoda na przechowywanie danych
-                                </label>
-                            </div>
-
-                            <button type="submit" class="btn btn-primary align-self-center mb-5">
-                                Wyślij
-                            </button>
-                        </form>
-                    </div>
                 </div>
             </div>
         </section>
