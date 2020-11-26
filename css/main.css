@@ -6,6 +6,10 @@ body {
   line-height: 1.4 !important;
 }
 
+a:hover {
+  color: #FFD600;
+}
+
 h3 {
   font-size: 1.9rem;
 }
@@ -15,19 +19,6 @@ h3 {
   background-image: url("../16.jpg");
   background-position: center;
   background-repeat: no-repeat;
-}
-
-li {
-  list-style-position: inside;
-  list-style-type: none;
-}
-
-footer div ul li {
-  margin-bottom: 1.5rem;
-}
-
-footer div ul li:first-child {
-  margin-top: 1.5rem;
 }
 
 .my-nav-class {
@@ -89,6 +80,28 @@ footer div ul li:first-child {
   border: 1px solid #FFFFFF;
   color: #FFFFFF;
   max-width: 320px;
+}
+
+.max-width-350 {
+  max-width: 350px;
+}
+
+.btn-primary {
+  width: 100%;
+  background-color: #FFD600;
+  color: #151617;
+  max-width: 350px;
+  border: 1px solid #FFD600;
+}
+
+.btn-primary:hover {
+  background-color: #FFD600;
+  color: #151617;
+}
+
+.yellow-border {
+  border-color: #FFD600 !important;
+  border-width: 2px !important;
 }
 
 /*# sourceMappingURL=main.css.map */

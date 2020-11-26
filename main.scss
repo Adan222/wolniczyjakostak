@@ -9,6 +9,10 @@ body{
     line-height: 1.4 !important;
 }
 
+a:hover{
+    color: $yellow;
+}
+
 h3{
     font-size: 1.90rem;
 }
@@ -18,19 +22,6 @@ h3{
     background-image: url("../16.jpg");
     background-position: center;
     background-repeat: no-repeat;
-}
-
-li{
-    list-style-position: inside;
-    list-style-type: none;
-}
-
-footer div ul li{
-    margin-bottom: 1.5rem;
-}
-
-footer div ul li:first-child{
-    margin-top: 1.5rem;
 }
 
 .my-nav-class{
@@ -96,7 +87,29 @@ footer div ul li:first-child{
     max-width: 320px;
 }
 
+.max-width-350{
+    max-width: 350px;
+}
 
+.btn-primary{
+    width: 100%;
+    background-color: $yellow;
+    color: $my-black;
+    max-width: 350px;
+    border: 1px solid $yellow;
+}
+
+.btn-primary:hover{
+    background-color: $yellow;
+    color: $my-black;
+}
+
+
+
+.yellow-border{
+    border-color: $yellow !important;
+    border-width: 2px !important;
+}
 
 
 
