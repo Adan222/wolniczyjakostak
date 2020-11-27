@@ -58,6 +58,7 @@ h3 {
   background: url("../img/lg-tape.svg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   width: 100%;
   height: 24px;
 }
@@ -66,13 +67,9 @@ h3 {
   background: url("../img/sm-tape.svg");
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   width: 100%;
   height: 24px;
-}
-
-.aaa {
-  margin-right: -300px;
-  background-color: #FFD600;
 }
 
 .my-trans-btn {
@@ -83,7 +80,24 @@ h3 {
 }
 
 .max-width-350 {
-  max-width: 350px;
+  max-width: 350px !important;
+}
+
+.max-width-200 {
+  max-width: 200px !important;
+}
+
+.max-width-550 {
+  max-width: 550px !important;
+}
+
+.yellow-border {
+  border-color: #FFD600 !important;
+  border-width: 2px !important;
+}
+
+.btn:hover {
+  color: #FFFFFF;
 }
 
 .btn-primary {
@@ -99,9 +113,25 @@ h3 {
   color: #151617;
 }
 
-.yellow-border {
-  border-color: #FFD600 !important;
-  border-width: 2px !important;
+.btn-play {
+  background-color: transparent;
+  border: none;
+}
+
+.bg-ptak {
+  background: url("../img/ptak-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-film {
+  background: url("../img/film_baba.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  backdrop-filter: brightness(50%);
+  min-height: 220px;
 }
 
 /*# sourceMappingURL=main.css.map */

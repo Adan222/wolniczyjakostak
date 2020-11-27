@@ -21,117 +21,131 @@
 </head>
 
 <body>
-    <div class="container-fluid p-0" >
+    <div class="container-fluid p-0 m-0" >
         <!-- navbar -->
-        <div class="container p-0 sticky-top">
-            <nav class="navbar navbar-expand-md my-nav-class">
-                <a href="" class="navbar-brand">
-                    <img src="img/mini-logo.svg" alt="folni od ferm logo">
-                </a>
-
-                <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#hamburger">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="navbar-collapse collapse justify-content-end" id="hamburger">
-                    <div class="navbar-nav">
-                        <a href="#" class="nav-item nav-link text-right my-text-yellow">O programie</a>
-                        <a href="#" class="nav-item nav-link text-right my-text-yellow">Kto stoi za ruchem?</a>
-                        <a href="#" class="nav-item nav-link text-right my-text-yellow">Blog</a>
-                        <a href="#" class="nav-item nav-link text-right my-text-yellow">Dla mediów</a>
-                        <a href="#" class="nav-item nav-link text-right my-text-yellow">Kontakt</a>
+        <section class="container-fluid p-0 sticky-top m-0 w-100 black-color">
+            <div class="container-xl p-0">
+                <nav class="navbar navbar-expand-xl my-nav-class d-flex">
+                    <div>
+                        <a href="" class="navbar-brand">
+                            <img src="img/mini-logo.svg" alt="folni od ferm logo">
+                        </a>
+                        <a href="" class="navbar-brand m-0">
+                            <img src="img/spurek.svg" alt="">
+                        </a>
                     </div>
-                </div>
-            </nav>
-        </div>
+                    <div class="d-flex justify-self-end">
+
+                        <a class="btn btn-primary d-none d-sm-block max-width-200 font-weight-bold justify-self-end" href="">
+                            Dołącz do spisu
+                        </a>
+
+                        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#hamburger">
+                            <img src="img/ham.svg" alt="">
+                        </button>
+                    </div>
+
+                    <div class="navbar-collapse collapse justify-content-end" id="hamburger">
+                        <div class="navbar-nav">
+                            <a href="#" class="nav-item nav-link text-right my-text-yellow">O programie</a>
+                            <a href="#" class="nav-item nav-link text-right my-text-yellow">Kto stoi za ruchem?</a>
+                            <a href="#" class="nav-item nav-link text-right my-text-yellow">Blog</a>
+                            <a href="#" class="nav-item nav-link text-right my-text-yellow">Dla mediów</a>
+                            <a href="#" class="nav-item nav-link text-right my-text-yellow">Kontakt</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </section>
         <!-- Sekcja z filmem -->
-        <section class="container-fluid black-color" >
-            <div class="row">
-                <div class="col-sm-6">
-                    <header class="my-4">
-                        <h3 class="text-white font-weight-bold">#WolniOdFerm</h3>
-                    </header>
-                    <div class="bg-white my-text-black">
-                        <h3 class="my-font-weight-600 px-3 py-2">
+        <section class="container-fluid bg-ptak px-0 px-md-3" >
+            <div class="container p-0">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-6">
+                        <header class="my-4">
+                            <h3 class="text-white text-center text-lg-left font-weight-bold">#WolniOdFerm</h3>
+                        </header>
+                        <h4 class="bg-white my-text-black text-center my-font-weight-600 px-3 py-2">
                             Trzymamy stronę ofiar ferm.
-                        </h3>
-                    </div>
-                    <div class="">
-                        <p class="text-white my-font-weight-500">
+                        </h4>
+                        <p class="text-white my-font-weight-500 px-3">
                             Fermy przemysłowe niszczą środowisko i odbierają podstawowe prawa – ludziom i zwierzętom.
                         </p>
                     </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="embed-responsive embed-responsive-16by9 mb-4">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bKHxpzEKpI?rel=0"></iframe>
-                    </div>  
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="bg-film d-flex flex-column justify-content-center m-3">
+                            <p class="text-white text-center my-font-weight-600 p-3 px-4 pb-2 m-0">
+                                Inwazja ferm przemysłowych. Poznaj skalę problemu.
+                            </p>
+                            <button class="btn-play">
+                                <img src="img/play.svg" alt="play button">
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
         <!-- Powszechny spis ofiar ferm -->
-        <section class="container-fluid px-0">
-            <div class="container p-0">
-                <div class="lg-police-tape"></div>
-                <div class="d-flex flex-column p-3 yellow-color">
-                    <h2 class="font-weight-bold px-3 mb-3">
-                        Powszechny Spis Ofiar Ferm Przemysłowych
-                    </h2>
-                    <p class="lead my-font-weight-500 px-3 mb-3">
-                        Zatrzymaj z nami niezrównoważony przemysł spożywczy. Nakłoń polityków i polityczki do zabrania głosu. 
-                    </p>
-                    <button class="btn black-color font-weight-bold d-flex flex-row justify-content-center align-items-center">
-                        <p class="pl-5 m-0">
-                            Dołącz do spisu
-                        </p>
-                        <img class="pl-4" src="img/mini-arrow.svg" alt="">
-                    </button>
-                </div>
-                <div class="lg-police-tape"></div>
+        <section class="container-lg px-0">
+            <div class="lg-police-tape"></div>
+            <div class="d-flex flex-column align-items-center p-3 yellow-color">
+                <h2 class="font-weight-bold px-3 mb-3">
+                    Powszechny Spis Ofiar Ferm Przemysłowych
+                </h2>
+                <p class="text-md-center lead my-font-weight-500 px-3 mb-3">
+                    Zatrzymaj z nami niezrównoważony przemysł spożywczy. Nakłoń polityków i polityczki do zabrania głosu. 
+                </p>
+                <button class="btn black-color font-weight-bold d-flex flex-row justify-content-center align-items-center">
+                    <p class="pl-5 m-0">
+                        Dołącz do spisu
+                     </p>
+                     <img class="pl-4" src="img/mini-arrow.svg" alt="">
+                </button>
             </div>
+            <div class="lg-police-tape"></div>
         </section>
         <!-- Program wolni od ferm -->
-        <section class="container grey-color pt-4">
+        <section class="container-fluid grey-color pt-4">
             <div class="row">
                 <div class="col-12 mb-3">
-                    <h2 class="font-weight-bold">Program Wolni od Ferm</h2>
+                    <h2 class="font-weight-bold text-md-center">Program Wolni od Ferm</h2>
                 </div>
-                <div class="col-xl-3 mb-4">
-                    <h3 class="my-font-weight-600">Jak działamy?</h3>
+                <div class="col-xl-4 mb-4">
+                    <h3 class="text-md-center my-font-weight-600">Jak działamy?</h3>
                 </div>
-                <div class="col-xl-9">
-                    <div class="mb-3 bg-white d-flex flex-column justify-content-center align-items-center">
-                        <img class="pt-3 px-3" src="img/prog-icon-1.svg" alt="">
-                        <p class="pt-3 px-3 my-font-weight-500">
+                <div class="col-xl-8 pr-lg-0">
+                    <div class="mb-3 p-3 bg-white d-flex flex-column flex-md-row justify-content-start align-items-center">
+                        <img class="img-fluid px-3" src="img/prog-icon-1.svg" alt="">
+                        <p class="pt-3 px-3 my-font-weight-500 m-0 mb-md-3">
                             Budujemy świadomość społeczną o skutkach ferm przemysłowych.
                         </p>
                     </div>
-                    <div class="mb-3 bg-white d-flex flex-column justify-content-center align-items-center">
-                        <img class="pt-3 px-3" src="img/prog-icon-2.svg" alt="">
-                        <p class="pt-3 px-3 my-font-weight-500">
+                    <div class="mb-3 p-3 bg-white d-flex flex-column flex-md-row justify-content-start align-items-center">
+                        <img class="img-fluid px-3" src="img/prog-icon-2.svg" alt="">
+                        <p class="pt-3 px-3 my-font-weight-500 m-0 mb-md-3">
                             Niesiemy wsparcie merytoryczne dla lokalnych społeczności i organizacji.
                         </p>
                     </div>
-                    <div class="mb-3 bg-white d-flex flex-column justify-content-center align-items-center">
-                        <img class="pt-3 px-3" src="img/prog-icon-3.svg" alt="">
-                        <p class="pt-3 px-3 my-font-weight-500">
+                    <div class="mb-3 p-3 bg-white d-flex flex-column flex-md-row justify-content-start align-items-center">
+                        <img class="img-fluid px-3" src="img/prog-icon-3.svg" alt="">
+                        <p class="pt-3 px-3 my-font-weight-500 m-0 mb-md-3">
                             Wpływamy na działania rządu, samorządów oraz instytucji UE. Walczymy o gwarancję praw człowieka.
                         </p>
                     </div>
-                    <div class="mb-3 bg-white d-flex flex-column justify-content-center align-items-center">
-                        <img class="pt-3 px-3" src="img/prog-icon-4.svg" alt="">
-                        <p class="pt-3 px-3 my-font-weight-500">
+                    <div class="mb-3 p-3 bg-white d-flex flex-column flex-md-row justify-content-start align-items-center">
+                        <img class="img-fluid px-3" src="img/prog-icon-4.svg" alt="">
+                        <p class="pt-3 px-3 my-font-weight-500 m-0 mb-md-3">
                             Tworzymy projekt ustawy o ochronie mieszkańców i mieszkanek wsi przed skutkami ferm przemysłowych.
                         </p>
                     </div>
-                    <div class="mb-3 bg-white d-flex flex-column justify-content-center align-items-center">
-                        <img class="pt-3 px-3" src="img/prog-icon-5.svg" alt="">
-                        <p class="pt-3 px-3 my-font-weight-500">
+                    <div class="mb-3 p-3 bg-white d-flex flex-column flex-md-row justify-content-start align-items-center">
+                        <img class="img-fluid px-3" src="img/prog-icon-5.svg" alt="">
+                        <p class="pt-3 px-3 my-font-weight-500 m-0 mb-md-3">
                             Łączymy społeczności lokalne z instytucjami UE.
                         </p>
                     </div>
                 </div>
-                <div class="police-tape"></div>
+                <div class="col-12 lg-police-tape"></div>
             </div>
         </section>
         <!-- Galeria zdjęć -->
@@ -236,13 +250,13 @@
                     <div class="col-12 lg-police-tape"></div>
                     <!-- White menu -->
                     <div class="col-12 bg-white">
-                        <h1 class="font-weight-bold px-3 mt-3">
+                        <h1 class="font-weight-bold mt-3">
                             Dołącz do spisu
                         </h1>
-                        <h4 class="my-font-weight-600 black-color mx-3 px-3 py-1">
+                        <h4 class="my-font-weight-600 black-color py-1">
                             Włącz się w walkę o realne zmiany.
                         </h4>
-                        <p class="px-3 my-font-weight-500">
+                        <p class="my-font-weight-500">
                             Pomóż chronić mieszkanki i mieszkańców wsi przed skutkami działalności ferm przemysłowych. To walka o godność i prawa człowieka, na poziomie polskim i europejskim.
                         </p>
                     </div>
@@ -368,51 +382,56 @@
             </div>
         </section>
         <!-- Big Footer -->
-        <div class="container black-color">
-            <div class="row">
-                <div class="p-0 col-sm-12 col-md-6 col-lg-4 d-flex flex-column border-top yellow-border">
-                    <a class="nav-link my-text-yellow font-weight-bold pt-3" href="#">Dołącz do spisu</a>
-                    <a class="nav-link my-text-yellow font-weight-bold" href="#">Zobacz film informacyjny</a>
-                    <a class="nav-link my-text-yellow font-weight-bold" href="#">Kto stoi za ruchem?</a>
-                    <a class="nav-link my-text-yellow font-weight-bold" href="#">O programie Wolni od Ferm</a>
-                    <a class="nav-link my-text-yellow font-weight-bold" href="#">Nasz cel</a>
-                    <a class="nav-link my-text-yellow font-weight-bold pb-3" href="#">Polityka prywatności</a>
-                </div>
-                <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column border-top yellow-border">
-                    <p class="my-font-weight-500 text-center mt-3">
-                        Napisz lub zadzwoń:
-                    </p>
-                    <p class="my-font-weight-500">
-                        Email: <small class="my-text-yellow font-weight-bold">pomoc@wolniodferm.pl</small>
-                        Telefon: +48 321 325 123
-                    </p>
-                    <div class="my-3">
-                        <p class="my-font-weight-500">Śledź nas na:</p>
-                        <div class="d-flex justify-content-between w-100 " style="max-width: 250px;">
-                            <a href="#">
-                                <img class="img-fluid" src="img/fb.svg" alt="Facebook" title="Facebook">
-                            </a>
-                            <a href="#">
-                                <img class="img-fluid" src="img/tw.svg" alt="Twitter" title="Twitter">
-                            </a>
-                            <a href="#">
-                                <img class="img-fluid" src="img/ig.svg" alt="Instagram" title="Instagram">
-                            </a>
+        <div class="container-fluid black-color">
+            <div class="container-xl px-0 px-sm-3">
+                <div class="row">
+                    <div class="p-0 col-sm-12 col-md-6 col-lg-4 d-flex flex-column border-top yellow-border">
+                        <a class="nav-link my-text-yellow font-weight-bold pt-3" href="#">Dołącz do spisu</a>
+                        <a class="nav-link my-text-yellow font-weight-bold" href="#">Zobacz film informacyjny</a>
+                        <a class="nav-link my-text-yellow font-weight-bold" href="#">Kto stoi za ruchem?</a>
+                        <a class="nav-link my-text-yellow font-weight-bold" href="#">O programie Wolni od Ferm</a>
+                        <a class="nav-link my-text-yellow font-weight-bold" href="#">Nasz cel</a>
+                        <a class="nav-link my-text-yellow font-weight-bold pb-3" href="#">Polityka prywatności</a>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4 d-flex flex-column border-top yellow-border">
+                        <p class="my-font-weight-500 text-center mt-3">
+                            Napisz lub zadzwoń:
+                        </p>
+                        <p class="my-font-weight-500">
+                            Email: <small class="my-text-yellow font-weight-bold">pomoc@wolniodferm.pl</small>
+                            <br>
+                            Telefon: +48 321 325 123
+                        </p>
+                        <div class="my-3">
+                            <p class="my-font-weight-500">Śledź nas na:</p>
+                            <div class="d-flex justify-content-between w-100 " style="max-width: 250px;">
+                                <a href="#">
+                                    <img class="img-fluid" src="img/fb.svg" alt="Facebook" title="Facebook">
+                                </a>
+                                <a href="#">
+                                    <img class="img-fluid" src="img/tw.svg" alt="Twitter" title="Twitter">
+                                </a>
+                                <a href="#">
+                                    <img class="img-fluid" src="img/ig.svg" alt="Instagram" title="Instagram">
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-12 col-lg-4 d-flex flex-column flex-md-row justify-content-md-around border-top yellow-border">
-                    <img class="py-3" src="img/mini-logo.svg" alt="">
-                    <img class="py-2" src="img/zieloni.svg" alt="">
-                    <img class="py-3" src="img/spurek.svg" alt="">
+                    <div class="col-sm-12 col-lg-4 d-flex flex-column flex-md-row justify-content-md-around border-top yellow-border">
+                        <img class="py-3" src="img/mini-logo.svg" alt="">
+                        <img class="py-2" src="img/zieloni.svg" alt="">
+                        <img class="py-3" src="img/spurek.svg" alt="">
+                    </div>
                 </div>
             </div>
         </div>
         <!-- Mini Footer -->
-        <footer class="black-color">
-            <p class="my-font-weight-500 p-3">
-                © Wolni Od Ferm. All rights reserved.
-            </p>
+        <footer class="container-fluid black-color">
+            <div class="container-xl">
+                <p class="my-font-weight-500 py-3">
+                    © Wolni Od Ferm. All rights reserved.
+                </p>
+            </div>
         </footer>
     </div>
 
