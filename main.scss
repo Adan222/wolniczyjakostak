@@ -12,9 +12,8 @@ $my-black: #151617;
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 1.15rem;
-    font-weight: 500;
+    font-weight: 400;
     background-color: violet;
-    line-height: 1.4 !important;
 }
 
 a:hover{
@@ -103,6 +102,14 @@ h3{
     max-width: 550px !important;
 }
 
+.max-width-570{
+    max-width: 570px !important;
+}
+
+.max-width-770{
+    max-width: 770px !important;
+}
+
 .yellow-border{
     border-color: $yellow !important;
     border-width: 2px !important;
@@ -130,6 +137,10 @@ h3{
     border: none;
 }
 
+.bg-black{
+    background-color: $my-black;
+}
+
 .bg-ptak{
     @include bg("../img/ptak-bg.png");
 }
@@ -138,6 +149,10 @@ h3{
     @include bg("../img/film_baba.png");
     backdrop-filter: brightness(50%);
     min-height: 220px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    line-height: 1.4 !important;
 }
 
 
